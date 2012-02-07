@@ -1,0 +1,6 @@
+CoreDataVsSqlLite.xcodeproj/project.xcworkspace
+CoreDataVsSqlLite.xcodeproj/xcuserdata
+
+.DS_Store
+#textmate
+*.tmproj

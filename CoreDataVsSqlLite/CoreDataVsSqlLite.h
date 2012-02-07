@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface CoreDataVsSqlLite : NSObject
+@interface CoreDataVsSqlLite : NSObject {
+    NSManagedObjectModel         *managedObjectModel;
+    NSManagedObjectContext       *managedObjectContext;
+    NSPersistentStoreCoordinator *persistentStoreCoordinator;
+}
+
+- (NSManagedObjectContext *) managedObjectContext;
+- (NSManagedObjectModel *) managedObjectModel;
+- (NSPersistentStoreCoordinator *) persistentStoreCoordinator;
+
 
 @end
+
