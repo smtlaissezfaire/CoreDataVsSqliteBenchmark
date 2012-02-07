@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2E225414E1127F004BC921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2E225314E1127F004BC921 /* Foundation.framework */; };
+		BA2E225A14E1127F004BC921 /* CoreDataVsSqlLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2E225914E1127F004BC921 /* CoreDataVsSqlLite.m */; };
+		BA2E226214E11280004BC921 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2E226114E11280004BC921 /* SenTestingKit.framework */; };
+		BA2E226414E11280004BC921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2E226314E11280004BC921 /* UIKit.framework */; };
+		BA2E226514E11280004BC921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2E225314E1127F004BC921 /* Foundation.framework */; };
+		BA2E226814E11280004BC921 /* libCoreDataVsSqlLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2E225014E1127F004BC921 /* libCoreDataVsSqlLite.a */; };
+		BA2E226E14E11280004BC921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2E226C14E11280004BC921 /* InfoPlist.strings */; };
+		BA2E227114E11280004BC921 /* CoreDataVsSqlLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2E227014E11280004BC921 /* CoreDataVsSqlLiteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2E226614E11280004BC921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2E224714E1127E004BC921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2E224F14E1127F004BC921;
+			remoteInfo = CoreDataVsSqlLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA2E225014E1127F004BC921 /* libCoreDataVsSqlLite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreDataVsSqlLite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2E225314E1127F004BC921 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA2E225714E1127F004BC921 /* CoreDataVsSqlLite-Prefix.pch */ = {isa = PBXFileReference; path = "CoreDataVsSqlLite-Prefix.pch"; sourceTree = "<group>"; };
+		BA2E225814E1127F004BC921 /* CoreDataVsSqlLite.h */ = {isa = PBXFileReference; path = CoreDataVsSqlLite.h; sourceTree = "<group>"; };
+		BA2E225914E1127F004BC921 /* CoreDataVsSqlLite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataVsSqlLite.m; sourceTree = "<group>"; };
+		BA2E226014E11280004BC921 /* CoreDataVsSqlLiteTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataVsSqlLiteTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2E226114E11280004BC921 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA2E226314E11280004BC921 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA2E226B14E11280004BC921 /* CoreDataVsSqlLiteTests-Info.plist */ = {isa = PBXFileReference; path = "CoreDataVsSqlLiteTests-Info.plist"; sourceTree = "<group>"; };
+		BA2E226D14E11280004BC921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA2E226F14E11280004BC921 /* CoreDataVsSqlLiteTests.h */ = {isa = PBXFileReference; path = CoreDataVsSqlLiteTests.h; sourceTree = "<group>"; };
+		BA2E227014E11280004BC921 /* CoreDataVsSqlLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataVsSqlLiteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2E224D14E1127F004BC921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2E225414E1127F004BC921 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2E225C14E11280004BC921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2E226214E11280004BC921 /* SenTestingKit.framework in Frameworks */,
+				BA2E226414E11280004BC921 /* UIKit.framework in Frameworks */,
+				BA2E226514E11280004BC921 /* Foundation.framework in Frameworks */,
+				BA2E226814E11280004BC921 /* libCoreDataVsSqlLite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2E224514E1127E004BC921 = {
+			isa = PBXGroup;
+			children = (
+				BA2E225514E1127F004BC921 /* CoreDataVsSqlLite */,
+				BA2E226914E11280004BC921 /* CoreDataVsSqlLiteTests */,
+				BA2E225214E1127F004BC921 /* Frameworks */,
+				BA2E225114E1127F004BC921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2E225114E1127F004BC921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E225014E1127F004BC921 /* libCoreDataVsSqlLite.a */,
+				BA2E226014E11280004BC921 /* CoreDataVsSqlLiteTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2E225214E1127F004BC921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E225314E1127F004BC921 /* Foundation.framework */,
+				BA2E226114E11280004BC921 /* SenTestingKit.framework */,
+				BA2E226314E11280004BC921 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA2E225514E1127F004BC921 /* CoreDataVsSqlLite */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E225814E1127F004BC921 /* CoreDataVsSqlLite.h */,
+				BA2E225914E1127F004BC921 /* CoreDataVsSqlLite.m */,
+				BA2E225614E1127F004BC921 /* Supporting Files */,
+			);
+			path = CoreDataVsSqlLite;
+			sourceTree = "<group>";
+		};
+		BA2E225614E1127F004BC921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E225714E1127F004BC921 /* CoreDataVsSqlLite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA2E226914E11280004BC921 /* CoreDataVsSqlLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E226F14E11280004BC921 /* CoreDataVsSqlLiteTests.h */,
+				BA2E227014E11280004BC921 /* CoreDataVsSqlLiteTests.m */,
+				BA2E226A14E11280004BC921 /* Supporting Files */,
+			);
+			path = CoreDataVsSqlLiteTests;
+			sourceTree = "<group>";
+		};
+		BA2E226A14E11280004BC921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA2E226B14E11280004BC921 /* CoreDataVsSqlLiteTests-Info.plist */,
+				BA2E226C14E11280004BC921 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA2E224E14E1127F004BC921 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA2E224F14E1127F004BC921 /* CoreDataVsSqlLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2E227414E11280004BC921 /* Build configuration list for PBXNativeTarget "CoreDataVsSqlLite" */;
+			buildPhases = (
+				BA2E224C14E1127F004BC921 /* Sources */,
+				BA2E224D14E1127F004BC921 /* Frameworks */,
+				BA2E224E14E1127F004BC921 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataVsSqlLite;
+			productName = CoreDataVsSqlLite;
+			productReference = BA2E225014E1127F004BC921 /* libCoreDataVsSqlLite.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA2E225F14E11280004BC921 /* CoreDataVsSqlLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2E227714E11280004BC921 /* Build configuration list for PBXNativeTarget "CoreDataVsSqlLiteTests" */;
+			buildPhases = (
+				BA2E225B14E11280004BC921 /* Sources */,
+				BA2E225C14E11280004BC921 /* Frameworks */,
+				BA2E225D14E11280004BC921 /* Resources */,
+				BA2E225E14E11280004BC921 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2E226714E11280004BC921 /* PBXTargetDependency */,
+			);
+			name = CoreDataVsSqlLiteTests;
+			productName = CoreDataVsSqlLiteTests;
+			productReference = BA2E226014E11280004BC921 /* CoreDataVsSqlLiteTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2E224714E1127E004BC921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BA2E224A14E1127E004BC921 /* Build configuration list for PBXProject "CoreDataVsSqlLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA2E224514E1127E004BC921;
+			productRefGroup = BA2E225114E1127F004BC921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2E224F14E1127F004BC921 /* CoreDataVsSqlLite */,
+				BA2E225F14E11280004BC921 /* CoreDataVsSqlLiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2E225D14E11280004BC921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2E226E14E11280004BC921 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA2E225E14E11280004BC921 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2E224C14E1127F004BC921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2E225A14E1127F004BC921 /* CoreDataVsSqlLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2E225B14E11280004BC921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2E227114E11280004BC921 /* CoreDataVsSqlLiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2E226714E11280004BC921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2E224F14E1127F004BC921 /* CoreDataVsSqlLite */;
+			targetProxy = BA2E226614E11280004BC921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA2E226C14E11280004BC921 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2E226D14E11280004BC921 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2E227214E11280004BC921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA2E227314E11280004BC921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2E227514E11280004BC921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CoreDataVsSqlLite.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataVsSqlLite/CoreDataVsSqlLite-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA2E227614E11280004BC921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CoreDataVsSqlLite.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataVsSqlLite/CoreDataVsSqlLite-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA2E227814E11280004BC921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataVsSqlLite/CoreDataVsSqlLite-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataVsSqlLiteTests/CoreDataVsSqlLiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BA2E227914E11280004BC921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataVsSqlLite/CoreDataVsSqlLite-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataVsSqlLiteTests/CoreDataVsSqlLiteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2E224A14E1127E004BC921 /* Build configuration list for PBXProject "CoreDataVsSqlLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2E227214E11280004BC921 /* Debug */,
+				BA2E227314E11280004BC921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2E227414E11280004BC921 /* Build configuration list for PBXNativeTarget "CoreDataVsSqlLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2E227514E11280004BC921 /* Debug */,
+				BA2E227614E11280004BC921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA2E227714E11280004BC921 /* Build configuration list for PBXNativeTarget "CoreDataVsSqlLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2E227814E11280004BC921 /* Debug */,
+				BA2E227914E11280004BC921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2E224714E1127E004BC921 /* Project object */;
+}
