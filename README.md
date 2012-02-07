@@ -47,4 +47,5 @@ benchmarks of core data vs. sqlite
 
 ## Other useful reading:
 
+http://cocoawithlove.com/2010/02/differences-between-core-data-and.html
 http://cocoawithlove.com/2008/03/testing-core-data-with-very-big.html
