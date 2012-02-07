@@ -21,8 +21,11 @@
 
 + (void) benchmark: (NSString *) name withBlock: (void (^)()) block {
     [self benchmark: ^{
+        NSLog(@"\n");
+        NSLog(@"--- starting benchmark: %@ --- ", name);
         NSTimeInterval time = [self benchmark: block];
-        NSLog(@"%@, time: %f", name, time);
+        NSLog(@"--- completed benchmark: %@, time: %f ---", name, time);
+        
     }];
 }
 

@@ -10,14 +10,15 @@
 
 @interface ViewController : UIViewController
 
-- (void) runSqliteBenchmarks;
-- (void) runCoreDataBenchmarks;
+- (void) runBenchmarks;
+
 - (void) insertSqlLite;
 - (void) queryAllSqliteLite;
-- (void) queryFirstNameSqlite;
+- (void) queryIdSqlite;
+
 - (void) insertCoreData;
 - (void) queryAllCoreData;
-- (void) queryFirstNameCoreData;
+- (void) queryIdCoreData;
 
 
 @end
