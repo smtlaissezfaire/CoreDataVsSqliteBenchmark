@@ -12,12 +12,12 @@ benchmarks of core data vs. sqlite
 
 ## Running
 
-0. git submodule update --init
-1. open CoreDataVsSqlLite.xcodeproj
-2. select CoreDataVsSqliteView + iPhone (or iPhone Simulator)
-3. Run it
-4. Output is in debugger window (CMD-C to view)
-5. When benchmarks are done, you should see a white screen on the iphoen
+- git submodule update --init
+- open CoreDataVsSqlLite.xcodeproj
+- select CoreDataVsSqliteView + iPhone (or iPhone Simulator)
+- Run it
+- Output is in debugger window (CMD-C to view)
+- When benchmarks are done, you should see a white screen on the iphoen
 
 ### My results: - iPhone 4g
 
